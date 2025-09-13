@@ -20,7 +20,7 @@ export function ProjectsSection() {
         "A fully functional two-player chess game with a terminal-based interface and intuitive gameplay logic, implementing all standard chess rules, move validation, and check/checkmate detection.",
       image: "/chess-game.jpg",
       technologies: ["Java"],
-      github: ""
+      github: "",
       demo: "", 
     },
     {
