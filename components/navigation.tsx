@@ -48,10 +48,13 @@ export function Navigation() {
                   {item.label}
                 </a>
               ))}
-              <Button variant="outline" size="sm" className="ml-4 bg-transparent">
+              <Button asChild variant="outline" size="sm" className="ml-4 bg-transparent">
+                <a href="/resume.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
-                Resume
+                  Resume
+                </a>
               </Button>
+
             </div>
           </div>
 
@@ -79,9 +82,11 @@ export function Navigation() {
               </a>
             ))}
             <div className="px-3 py-2">
-              <Button variant="outline" size="sm" className="w-full bg-transparent">
+              <Button asChild variant="outline" size="sm" className="w-full bg-transparent">
+                <a href="/resume.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
-                Resume
+                  Resume
+                </a>
               </Button>
             </div>
           </div>
