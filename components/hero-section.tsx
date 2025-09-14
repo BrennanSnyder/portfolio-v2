@@ -21,13 +21,15 @@ export function HeroSection() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="text-lg px-8">
-              View My Work
+            <Button size="lg" className="text-lg px-8" asChild>
+            <a href="#projects">View My Work</a>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 bg-transparent">
-              Get In Touch
+
+            <Button variant="outline" size="lg" className="text-lg px-8 bg-transparent" asChild>
+           <a href="#contact">Get In Touch</a>
             </Button>
           </div>
+
 
           <div className="flex justify-center space-x-6">
             <a
@@ -45,12 +47,13 @@ export function HeroSection() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="brennansnyder207@gmail.com"
+              href="mailto:brennansnyder207@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >
-              <Mail className="w-6 h-6" />
+            <Mail className="w-6 h-6" />
             </a>
+
           </div>
         </div>
       </div>
