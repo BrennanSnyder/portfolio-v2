@@ -18,7 +18,7 @@ export function ProjectsSection() {
       title: "Chess Game",
       description:
         "A fully functional two-player chess game with a terminal-based interface and intuitive gameplay logic, implementing all standard chess rules, move validation, and check/checkmate detection.",
-      image: "/chess-game.jpg",
+      image: "/chess-game.png",
       technologies: ["Java"],
       github: "",
       demo: "", 
@@ -27,7 +27,6 @@ export function ProjectsSection() {
       title: "Image Editor",
       description:
         "A desktop image editing tool with filters, transformations, and metadata editing features, built with a focus on usability and performance for high-resolution images.",
-      image: "/image-editor.jpg",
       technologies: ["Python"],
       github: "", 
       demo: "", 
@@ -47,13 +46,16 @@ export function ProjectsSection() {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="bg-card border-border overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="aspect-video bg-muted">
-                <img
-                  src={project.image || "/placeholder.svg"}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              {project.image && (
+  <div className="aspect-video bg-muted">
+    <img
+      src={project.image}
+      alt={project.title}
+      className="w-full h-full object-cover"
+    />
+  </div>
+)}
+
               <CardHeader>
                 <CardTitle className="text-card-foreground">{project.title}</CardTitle>
                 <CardDescription className="text-pretty">{project.description}</CardDescription>
