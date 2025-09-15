@@ -6,7 +6,7 @@ export function AboutSection() {
     {
       icon: Code,
       title: "Frontend Development",
-      description: "React.js, JavaScript, TypeScript, Tailwind CSS",
+      description: "React, Next.js, JavaScript, TypeScript, Tailwind CSS",
     },
     {
       icon: Database,
