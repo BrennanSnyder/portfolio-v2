@@ -31,7 +31,7 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">About Me</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            I'm a passionate computer science student with a love for creating innovative solutions and learning new
+            I'm a forward-thinking computer science student with a love for creating innovative solutions and learning new
             technologies.
           </p>
         </div>
