@@ -41,8 +41,9 @@ export function AboutSection() {
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-foreground">My Journey</h3>
               <p className="text-muted-foreground text-pretty">
-                Currently in my third year of Computer Science at University, I've been coding for over 4 years and have
-                developed a strong foundation in both theoretical concepts and practical application.
+                Currently in my junior year at the University of Minnesota’s College of Science and Engineering, I’ve built more than four years of coding experience and a strong foundation that bridges computer science theory with real-world application.
+
+
               </p>
               <p className="text-muted-foreground text-pretty">
                 I'm particularly interested in full-stack development, artificial intelligence, cloud-computing, and creating user-centered applications that solve real-world problems.
@@ -52,7 +53,7 @@ export function AboutSection() {
             <div className="space-y-4">
               <h4 className="text-xl font-semibold text-foreground">When I'm not coding</h4>
               <p className="text-muted-foreground text-pretty">
-                You can find me contributing to collaborative projects and exploring the latest tech trends. I also enjoy playing golf and practicing guitar.
+                You can find me contributing to collaborative projects through University of Minnesota student groups and exploring the latest tech trends. I also enjoy playing golf and practicing guitar.
               </p>
             </div>
           </div>

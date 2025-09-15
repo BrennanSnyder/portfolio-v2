@@ -39,7 +39,7 @@ export function ProjectsSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Featured Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Here are some of the projects I've worked on that showcase my skills and passion for development.
+            The following projects reflect my experience, creativity, and dedication to building impactful software solutions.
           </p>
         </div>
 

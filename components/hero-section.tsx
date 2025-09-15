@@ -11,12 +11,13 @@ export function HeroSection() {
               Hi, I'm <span className="text-primary">Brennan Snyder</span>
             </h1>
             <p className="text-xl sm:text-2xl text-white max-w-2xl mx-auto text-balance">
-              Computer Science Student
+              B.S. Computer Science Student
+              <br />
+              University of Minnesota
 
             </p>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty">
-              Passionate about creating innovative solutions through code. Currently pursuing my degree while building
-              projects that make a difference.
+              As a computer science major, I thrive on creating innovative solutions and exploring emerging technologies.
             </p>
           </div>
 
