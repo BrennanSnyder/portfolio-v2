@@ -1,6 +1,6 @@
 "use client"
 
-import { Mail, MapPin } from "lucide-react"
+import { Mail, MapPin, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function ContactSection() {
@@ -10,6 +10,12 @@ export function ContactSection() {
       label: "Email",
       value: "brennansnyder207@gmail.com",
       href: "mailto:brennansnyder207@gmail.com",
+    },
+    {
+      icon: Linkedin,
+      label: "LinkedIn",
+      value: "brennans207",
+      href: "https://www.linkedin.com/in/brennans207/"
     },
     {
       icon: MapPin,
@@ -49,7 +55,12 @@ export function ContactSection() {
                   <div>
                     <p className="text-sm text-muted-foreground">{info.label}</p>
                     {info.href ? (
-                      <a href={info.href} className="text-foreground hover:text-primary transition-colors">
+                      <a
+                        href={info.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-foreground hover:text-primary transition-colors"
+                      >
                         {info.value}
                       </a>
                     ) : (
