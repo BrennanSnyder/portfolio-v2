@@ -35,6 +35,8 @@ export function HeroSection() {
           <div className="flex justify-center space-x-6">
             <a
               href="https://github.com/BrennanSnyder"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="GitHub"
             >
@@ -42,6 +44,8 @@ export function HeroSection() {
             </a>
             <a
               href="https://www.linkedin.com/in/brennans207/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="LinkedIn"
             >
