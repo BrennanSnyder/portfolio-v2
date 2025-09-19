@@ -36,7 +36,7 @@ export function ProjectsSection() {
       description: "A SQL-based project to design and query a relational database that tracks students, courses, and enrollments.",
       image: "/student_course_db.png",
       technologies: ["SQL", "PostgreSQL"],
-      github: "",
+      github: "https://github.com/BrennanSnyder/Student-Course-DB",
       demo: "",
     },
   ]
